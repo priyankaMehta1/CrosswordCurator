@@ -1,0 +1,21 @@
+When creating a crossword, there is a predetermined list from which words are typically chosen.
+Many longtime crossword creators may choose to cultivate their own lists over several years,
+adding in words or phrases that they come across during their day-to-day work. However,
+these curated lists rarely take into account cultural diversity and regional history, resulting 
+in a more limited list that takes significant manual effort to create.
+
+This project aims to facilitate adding custom context to any crossword list, via the
+Spotify and Wikipedia APIs, so that crossword creators can easily create more diverse puzzles.
+- Spotify: Link your account and scrape all songs, artists, and even movie titles
+- Wikipedia: Look up any Wikipedia page and add all words found on that page
+
+The functions below will return a list of all unique words found. Specify whether to
+break up phrases into their respective words (with the option to keep the original phrases as well),
+and whether these unique words should be returned concatenated to our default word list (removing
+the need for manual editing).
+
+Tags:
+- v: verbose
+- b: break
+- k: keep (after break)
+- a: append to default dict
