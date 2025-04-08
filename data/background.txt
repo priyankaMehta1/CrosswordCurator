@@ -9,13 +9,5 @@ Spotify and Wikipedia APIs, so that crossword creators can easily create more di
 - Spotify: Link your account and scrape all songs, artists, and even movie titles
 - Wikipedia: Look up any Wikipedia page and add all words found on that page
 
-The functions below will return a list of all unique words found. Specify whether to
-break up phrases into their respective words (with the option to keep the original phrases as well),
-and whether these unique words should be returned concatenated to our default word list (removing
-the need for manual editing).
-
-Tags:
-- v: verbose
-- b: break
-- k: keep (after break)
-- a: append to default dict
+The functions will return a list of all unique words found. Specify whether unique words should 
+be returned concatenated to our default word list (removing the need for manual editing).
